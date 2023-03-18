@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": [
+    "standard",
+    "standard-jsx"
+  ],
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "standard/computed-property-even-spacing": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react/display-name": false
+  },
+  "parser": "babel-eslint",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
